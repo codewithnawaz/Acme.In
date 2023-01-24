@@ -1,0 +1,47 @@
+.container{
+    flex: 1;
+    border-right: 0.5px solid rgb(232, 227, 227);
+    min-height: 100vh;
+    background-color: white;
+    .top{
+        margin-top: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            font-weight: 500;
+            border-radius: 10px;
+            height: 40px;
+        }
+    }
+    .bottom{
+        ul{
+            p{
+                margin-left: 15px;
+                color: gray;
+                font-size: 13px;
+                font-weight: 400;
+            }
+            li{
+                padding: 12px;
+                display: flex;
+               align-items: center;
+               gap: 10px;
+               
+            }
+        }
+    }
+}
+
+@media(max-width:415px){
+    .container{
+        display: none;
+    }
+}

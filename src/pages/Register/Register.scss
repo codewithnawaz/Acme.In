@@ -1,0 +1,77 @@
+.sideCon{
+    display: flex;
+}
+.RegisterContainer{
+    flex: 6;
+    .title{
+        font-size: 20px;
+        color: gray;
+    }
+    .Top,.Bottom {
+        box-shadow: 4px 3px 21px 0px rgba(0, 0, 0, 0.47);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        -moz-box-shadow: 4px 3px 21px 0px rgba(0, 0, 0, 0.58);
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+    .left{
+        flex: 1;
+        text-align: center;
+    img{
+             width: 300px;
+             height: 300px;
+             border-radius: 50%;
+             object-fit: cover;
+        }
+    }
+    .right{
+        flex: 2;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .btn{
+            width: 150px;
+            padding: 10px;
+            border: none;
+            color: white;
+            background-color: teal;
+            font-weight: bolder;
+            margin-top: 15px;
+        }   
+    }
+    .formInput{
+        width: 40%;
+    
+    input{
+        width: 100%;
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid lightgray;
+    } 
+    .icon{
+        margin-top: 20px;
+        font-weight: bolder;
+        font-size: 25px;
+        
+    }
+    }
+    }
+}
+@media(max-width:415px){
+    .Bottom{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .left{
+        .img{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+    }
+    }

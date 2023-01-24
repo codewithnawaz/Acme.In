@@ -1,0 +1,8 @@
+.GContainer{
+    padding: 15px;
+}
+@media(max-width:415px){
+    .GContainer{
+        display: none;
+    }
+}

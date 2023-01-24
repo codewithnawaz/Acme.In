@@ -1,0 +1,58 @@
+import React from 'react'
+
+const Customer = () => {
+  return (
+    <div className="cCustomer p-5">
+      <div className="top mb-7">
+        <div className="title font-bold text-lg">Recent Customers</div>
+        <div className="desc text-slate-600">This is recent customers list</div>
+      </div>
+      <div className="bottom flex justify-between items-center justify-center mb-5">
+        <div className="img">img</div>
+        <div className="info ">
+          <div className="name">Jenny Willson</div>
+          <div className="email text-slate-600">w.lawson@example.com</div>
+        </div>
+        <div className="data justify-center items-center ">
+          <div className="amount ">$11.234</div>
+          <div className="city text-slate-600">Austin</div>
+        </div>
+      </div>
+      <div className="bottom flex justify-between items-center justify-center mb-5">
+        <div className="img">img</div>
+        <div className="info ml-5">
+          <div className="name">Devon Lane</div>
+          <div className="email text-slate-600">dat.robort@example.com</div>
+        </div>
+        <div className="data justify-center items-center">
+          <div className="amount ml-4">$11.59</div>
+          <div className="city text-slate-600">New York</div>
+        </div>
+      </div>
+      <div className="bottom flex justify-between items-center justify-center mb-5">
+        <div className="img">img</div>
+        <div className="info">
+          <div className="name">Jane Cooper</div>
+          <div className="email text-slate-600">JgRaham@example.com</div>
+        </div>
+        <div className="data justify-center items-center">
+          <div className="amount">$10.438</div>
+          <div className="city text-slate-600">Toledo</div>
+        </div>
+      </div>
+      <div className="bottom flex justify-between items-center justify-center mb-5 ">
+        <div className="img">img</div>
+        <div className="info">
+          <div className="name">Danniel Russel</div>
+          <div className="email text-slate-600">curtis.d@example.com</div>
+        </div>
+        <div className="data ">
+          <div className="amount ml-4">$9.884</div>
+          <div className="city text-slate-600">Naperville</div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Customer

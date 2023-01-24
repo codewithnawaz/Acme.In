@@ -1,0 +1,16 @@
+.tContainer{
+.bottom{
+    border-bottom: 1px solid lightgray;
+}
+@media(max-width:415px){
+    .bottom{
+        gap:5px;
+        .brand{
+            display: none;
+        }
+        .icon{
+            display: none;
+        }
+    }
+}
+}
